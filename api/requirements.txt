@@ -1,0 +1,76 @@
+import requests
+from bs4 import BeautifulSoup
+import re
+from urllib.parse import urlparse, parse_qs, urljoin, quote, unquote
+import hashlib
+import base64
+import random
+import string
+import json
+import socket
+import os
+import uuid
+import dns.resolver
+import whois
+import concurrent.futures
+import time
+from typing import List, Dict, Any, Optional
+from requests.exceptions import RequestException, Timeout
+from urllib3.exceptions import InsecureRequestWarning
+from colorama import Fore, Style, init
+import ssl
+import subprocess
+import ipaddress
+import jwt
+from cryptography.hazmat.primitives import hashes
+from cryptography.hazmat.primitives.asymmetric import padding
+from cryptography.hazmat.primitives.serialization import load_pem_public_key
+from xml.etree.ElementTree import fromstring, ParseError
+import yaml
+from jinja2 import Environment, FileSystemLoader
+import logging
+import argparse
+from tqdm import tqdm
+import nmap
+from scapy.all import *
+import socket
+import dns.resolver
+import ssl
+import OpenSSL
+import requests
+from bs4 import BeautifulSoup
+import urllib.parse
+import subprocess
+import re
+import paramiko
+import ftplib
+import smtplib
+import telnetlib
+import pymongo
+import redis
+import psycopg2
+import mysql.connector
+import pyodbc
+import logging
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from typing import Dict, List, Any, Union
+import os
+import base64
+import hashlib
+import secrets
+import string
+import zlib
+import binascii
+from typing import Tuple, List, Optional
+from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+from cryptography.hazmat.primitives import hashes, padding
+from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
+from cryptography.hazmat.primitives.asymmetric import rsa, padding as asymmetric_padding, ec, dsa, ed25519
+from cryptography.hazmat.primitives.serialization import load_pem_private_key, load_pem_public_key, Encoding, PrivateFormat, PublicFormat, NoEncryption
+from cryptography.hazmat.backends import default_backend
+from cryptography.fernet import Fernet
+from cryptography.hazmat.primitives.twofactor import totp
+from cryptography.hazmat.primitives.ciphers.aead import AESGCM, ChaCha20Poly1305
+from cryptography.exceptions import InvalidSignature
+from cryptography.hazmat.primitives.asymmetric import dh
+from cryptography.hazmat.primitives.constant_time import bytes_eq
